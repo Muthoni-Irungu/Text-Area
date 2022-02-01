@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    color: white;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+span{
+    color: white;
+    font-weight: bold;
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(3.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+.textarea{
+    background-color: #dddddd;
+    color: #666666;
+    padding: 1em;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    outline:none;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.4;
+    transition: all 0.2s;
+
+
+
+    
+}
+.textarea:hover{
+    cursor: pointer;
+    background-color: #eeeeee;
+}
+
+.textarea:focus{
+    cursor: text;
+    color: #333333;
+    background-color:white;
+    border-color: #333333
+} 
+
+.form{
+    width: 500px;
+    height: 380px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: 120px;
+    left: 450px;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.text{
+    background-color: #dddddd;
+    color: #666666;
+    padding: 1em;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    outline:none;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.4;
+    transition: all 0.2s;
+    width: 450px;
+    height: 130px;
+
+
+
+    
+}
+.text:hover{
+    cursor: pointer;
+    background-color: #eeeeee;
+}
+
+.text:focus{
+    cursor: text;
+    color: #333333;
+    background-color:white;
+    border-color: #333333
+}
+
+.button {
+   background-color: #000;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  
+ 
+  }
